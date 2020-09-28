@@ -1,0 +1,126 @@
+.header{
+    background-color: brown;
+    font-size: 20px;
+    height: 50px;
+    text-align: right;
+    padding-top: 20px;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+
+.a{
+    color: white;
+    padding:50px;
+}
+
+.d1{
+    background-image: url("https://media.giphy.com/media/xVn3ZmKrKIOLS/source.gif");
+    width: 100%;
+    height: 1080px;
+}
+
+.d2{
+    display: inline-block;
+    width: 33%;
+    height: 1080px;
+    background-image: url("https://media.giphy.com/media/xVn3ZmKrKIOLS/source.gif");
+    background-repeat: repeat;
+}
+
+.d2t{
+    text-align: center;
+    padding-top: 500px;
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+.a2t{
+    color: white;
+    
+}
+
+
+.d3{
+    display: inline-block;
+    width: 33%;
+    height: 1080px;
+    background-image: url("https://media.giphy.com/media/xVn3ZmKrKIOLS/source.gif");
+    background-repeat: repeat;
+}
+
+.d3t{
+    text-align: center;
+    padding-top: 500px;
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+.a3t{
+    color: white;
+    
+}
+
+.d4{
+    display: inline-block;
+    width: 33%;
+    height: 1080px;
+    background-image: url("https://media.giphy.com/media/xVn3ZmKrKIOLS/source.gif");
+    background-repeat: repeat;
+}
+
+.d4t{
+    text-align: center;
+    padding-top: 500px;
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+.a4t{
+    color: white;
+    
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .d2{
+        width: 45%;
+        height: 50%;
+    }
+}
+@media (max-width:767px){
+    .d2{
+        width:100%;
+        height: 50%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .d3{
+        width: 45%;
+        height: 50%;
+        padding-bottom: 25%;
+    }
+}
+@media (max-width:767px){
+    .d3{
+        width:100%;
+        height: 50%;
+        padding-bottom: 50%;
+        
+        
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .d4{
+        width: 45%;
+        height: 50%;
+        padding-bottom: 50%;
+    }
+}
+@media (max-width:767px){
+    .d4{
+        width:100%;
+        height: 50%;
+        padding-bottom: 50%;
+    }
+}

@@ -1,0 +1,179 @@
+.logo{
+    float: left;
+    width: 120px;
+    height: 70px;
+
+}
+.logo img{
+    width:100%;
+    padding-top: 10px;
+}
+.linkovi{
+    float: right;
+    padding-top: 20px;
+    
+}
+.header{
+    background-color: red;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.slika{
+    background-size: cover;
+    background-image:url("nis.jpg");
+    background-repeat: no-repeat;
+    height:800px;
+    background-position: center;
+    
+}
+.a{
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+}
+.p{
+    text-align: center;
+    color: white;
+    padding-top: 430px;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0px;
+}
+.pt{
+    text-align: center;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2cm;
+    
+}
+.h{
+    text-align: center;
+    color:  rgb(54, 114, 243);
+    font-family: 'Alfa Slab One', cursive;
+}
+.hr{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(54, 114, 243);
+}
+
+.d1{
+    width: 33%;
+    display: inline-block;
+}
+
+.d1s{
+    background-image:url("tvrdjava.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:400px;
+    
+}
+
+.d1t{
+    background-color: red;
+    width:100%;
+    height: 65px;
+}
+
+.p1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0px;
+}
+
+.d2{
+    width: 33%;
+    display: inline-block;
+}
+
+.d2s{
+    background-image:url("cele-kula.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:400px;
+    
+}
+
+.d2t{
+    background-color: red;
+    width:100%;
+    height: 65px;
+}
+
+.p2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0px;
+}
+
+
+.d3{
+    width: 33%;
+    display: inline-block;
+}
+
+.d3s{
+    background-image:url("bubanj.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:400px;
+    
+}
+
+.d3t{
+    background-color: red;
+    width:100%;
+    height: 65px;
+}
+
+.p3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0px;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .d1{
+        width: 45%;
+    }
+}
+@media (max-width:767px){
+    .d1{
+        width:100%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .d2{
+        width: 45%;
+    }
+}
+@media (max-width:767px){
+    .d2{
+        width:100%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .d3{
+        width: 45%;
+    }
+}
+@media (max-width:767px){
+    .d3{
+        width:100%;
+    }
+}

@@ -1,0 +1,34 @@
+.header{
+    width: 33%;
+    display: inline-block;
+    background-color: coral;
+    width:100%;
+    height: 50px;
+    color: white;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.footer{
+    background-color: coral;
+    width:100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.lokacija{
+    text-align:center;
+    background-color:lightgrey;
+    
+}
+.slika{
+    width:600px;
+}
+
+.s{
+    color: white;
+    font-size: 25px;
+    padding: 25px;
+}

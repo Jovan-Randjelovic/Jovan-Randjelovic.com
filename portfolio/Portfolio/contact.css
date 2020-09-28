@@ -1,0 +1,86 @@
+.header{
+    background-color: brown;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+}
+
+.d{
+    background-image: url("https://media.giphy.com/media/xVn3ZmKrKIOLS/source.gif");
+    width: 100%;
+    height: 1080px;
+}
+
+.d1{
+    display: inline-block;
+    width: 49%;
+    height: 1080px;
+    background-image: url("https://media.giphy.com/media/xVn3ZmKrKIOLS/source.gif");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.d1t{
+    text-align: center;
+    padding-top: 500px;
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+.a{
+    color: white;
+    
+}
+
+.d2{
+    display: inline-block;
+    width: 49%;
+    
+    background-image: url("https://media.giphy.com/media/xVn3ZmKrKIOLS/source.gif");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.d2t{
+    text-align: center;
+    padding-top: 500px;
+    font-size: 40px;
+    font-family: Circularpro, sans-serif;;
+    
+}
+.a2{
+    color: white;
+    
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .d1{
+        width: 100%;
+        height: 50%;
+        
+    }
+}
+@media (max-width:767px){
+    .d1{
+        width:100%;
+        height: 50%;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .d2{
+        width: 100%;
+        padding-bottom: 25%;
+    }
+}
+@media (max-width:767px){
+    .d2{
+        width:100%;
+        padding-bottom: 25%;
+    }
+}
